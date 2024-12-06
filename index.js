@@ -124,7 +124,7 @@ $(document).ready(function() {
         $('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
         $('#paginationThree').removeClass('hide');
-        $('.pageNext').addClass('disabled');
+        $('.pageNext').removeClass('disabled');
 
     });
 
@@ -151,7 +151,7 @@ $(document).ready(function() {
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').addClass('hide');
         $('#shopContainerFour').removeClass('hide');
-        $('.pageNext').removeClass('disabled');
+        $('.pageNext').addClass('disabled');
         $('#paginationFour').removeClass('hide');});
 
     
